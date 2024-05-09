@@ -19,8 +19,3 @@ def number_of_subscribers(subreddit):
     except Exception as e:
         print(f"Error: {e}")
         return 0
-    
-
-    # Example usage:
-subreddit = "python"
-print(f"Number of subscribers in r/{subreddit}: {number_of_subscribers(subreddit)}")
