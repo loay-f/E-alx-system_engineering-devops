@@ -4,15 +4,24 @@
 Detection Time: April 25, 2024, 10:15 AM EST.
 
 Detection Method: Automated monitoring systems detected a sudden increase in HTTP 500 errors.
+
 Actions Taken:
+
 •	Investigated frontend code for potential issues.
+
 •	Analyzed server logs for indications of a DDoS attack.
+
 •	Assumed a network issue due to intermittent connectivity reported by users.
 Misleading Paths:
+
 •	Initially focused on frontend and network layers without examining backend services.
+
 •	Overlooked database connection pool exhaustion due to lack of visibility into backend service health.
+
 Escalation: The incident was escalated to the backend development team and then to the database administration team.
+
 Resolution: The issue was resolved by increasing the database connection pool size and optimizing database queries to reduce resource consumption.
+
 Root Cause Explanation: A surge in user traffic led to the exhaustion of database connection pools in our microservices architecture, causing cascading failures and rendering the platform unavailable
 
 Resolution Details: The issue was addressed by scaling up the database connection pool size and implementing query optimizations to reduce the database load during peak traffic periods.
