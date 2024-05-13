@@ -1,3 +1,6 @@
+![1_bSUlrrO7E83Eb85sAIiZrw](https://github.com/loay-f/alx-system_engineering-devops/assets/51892138/8a555b79-2eca-499f-972f-811ba8b5d6cf)
+
+
 Detection Time: April 25, 2024, 10:15 AM EST.
 Detection Method: Automated monitoring systems detected a sudden increase in HTTP 500 errors.
 Actions Taken:
